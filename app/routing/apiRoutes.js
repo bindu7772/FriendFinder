@@ -1,14 +1,16 @@
 var friendList = require('../data/friend.js');
 
 module.exports = function (app) {
-    //a GET route that displays JSON of all possible friends
     app.get('/api/friends', function (req, res) {
         res.json(friendList);
     });
 
     app.post('/api/friends', function (req, res) {
         //grabs the new friend's scores to compare with friends in friendList array
-        var newFriendScores = req.body.scores;
+        var newFriend = req.body;
+        console.log(newFriend);
+        var newFriendScores = newFriend.scores;
+        console.log(newFriendScores);
         var scoresArray = [];
         var friendCount = 0;
         var bestMatch = 0;
