@@ -39,6 +39,6 @@ module.exports = function (app) {
         res.json(bff);
 
         //pushes new submission into the friendsList array
-        friendList.push(req.body);
+        friendList.push(newFriend);
     });
 };

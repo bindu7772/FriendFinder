@@ -1,7 +1,7 @@
 var friendList = [
   {
-      name: 'Stefanie Ding',
-      profilePic: 'https://avatars3.githubusercontent.com/u/17751317?v=3&s=466',
+      name: 'Salman Khan',
+      profilePic: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5gbBJlpb9xTj7CYBT-p4e-oqjniHdvwe8tnMG0Srr-SfbxZ5',
       scores: [
         "4",
         "5",
