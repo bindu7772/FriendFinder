@@ -1,5 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
+
+// provides utilities for working with file and directory paths
 var path = require("path");
 
 // Tells node that we are creating an "express" server
